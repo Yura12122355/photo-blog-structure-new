@@ -1,0 +1,86 @@
+html,body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+ol,ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.header{
+  height: 19px;
+  width: 555px;
+  margin: 70px auto;
+ 
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+main{
+  height: 1928px;
+  width: 906px;
+  
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.hero{
+  color: #626262;
+}
+.hero:hover{
+  color: rgb(59, 123, 240);
+}
+.card{
+ 
+  width: 420px;
+  height: 516px;
+
+}
+.text{
+  font-size: 16px;
+  color:  #626262;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+.fun-claim{
+  font-size: 30px;
+  color: #626262;
+  padding-top: 10px;
+}
+.button{
+  margin: 0 auto;
+   border-radius: 1px;
+   color: gray;
+   height: 50px;
+   width: 150px;
+   border: 1px solid grey;
+   background-color: white;
+  transition: 1.0s;
+}
+.button:hover{
+  color: blue;
+  background-color: red;
+  
+  transition: 1.0s;
+}
+footer{
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border: 1px grey;
+}
+.life{
+  font-size: 14px;
+  color:  #B4AD9E;
+  font-weight: 100;
+  
+}
